@@ -34,6 +34,7 @@
 
   <!-- Custom vendor additions -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
+  <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="PixelOS" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
