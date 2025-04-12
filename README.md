@@ -28,7 +28,7 @@ Initialize the ROM environment with the envsetup.sh script.
 Lunch your device after cloning all device sources if needed.
 
 ```bash
-lunch aosp_devicecodename-ap4a-buildtype
+lunch aosp_devicecodename-aosp_target_release-buildtype
 ```
 
 Start compilation
@@ -36,3 +36,11 @@ Start compilation
 ```bash
 mka bacon
 ```
+
+---
+
+Note:  
+
+**aosp_target_release**: bp1a (As of April ASB)  
+**buildtype**: user, userdebug, eng
+
