@@ -14,7 +14,7 @@ repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr
 Then, sync the repository:
 
 ```bash
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ## Building the System
@@ -22,19 +22,19 @@ repo sync
 Initialize the ROM build environment by sourcing the envsetup.sh script:
 
 ```bash
-source build/envsetup.sh
+. build/envsetup.sh
 ```
 
 After cloning the device-specific sources, use breakfast to configure the build for your device:
 
 ```bash
-breakfast devicecodename
+lunch custom_nuwa-bp3a-userdebug
 ```
 
 Start the compilation:
 
 ```bash
-m pixelos
+mka pixelos -j$(nproc --all)
 ```
 
 ## Submitting Patches

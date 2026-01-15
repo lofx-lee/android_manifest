@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lofx-lee"
+           fetch="git@github.com:lofx-lee/"
+           review="https://review.lofx-lee.com/"
+           revision="pixelos-16.1" />
+
+  <!-- modify the position of NetIndicator 
+  <project path="frameworks/base" name="pixelos_frameworks_base" revision="sixteen-qpr1" groups="pdk-cw-fs,pdk-fs" remote="lofx-lee" />
+  <project path="packages/apps/Settings" name="pixelos_packages_apps_Settings" revision="sixteen-qpr1" groups="pdk-cw-fs,pdk-fs" remote="lofx-lee" />  
+-->
+  <!-- device trees -->
+  <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <!-- kernel trees -->
+  <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <!-- proprietary_vendor trees -->
+  <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="pixelos-16.1" remote="lofx-lee" />
+  <!-- Google Camera -->
+  <project path="vendor/xiaomi/GoogleCamera" name="pixelos_vendor_xiaomi_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="pixelos-a15" remote="lofx-lee" />
+  <!-- Basic Call Recorder --> 
+  <project path="vendor/xiaomi/bcr" name="pixelos_vendor_xiaomi_bcr" groups="pdk-cw-fs,pdk-fs" revision="pixelos-a15" remote="lofx-lee" />
+  <!-- EuiccPolicy --> 
+  <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" groups="pdk-cw-fs,pdk-fs" revision="lineage-23.1" remote="lineage" />
+
+</manifest>

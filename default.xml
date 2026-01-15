@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="lineageos"
@@ -1048,5 +1048,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+  <include name="local_manifest.xml" />
 
 </manifest>
