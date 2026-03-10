@@ -10,7 +10,10 @@ To initialize your local repository, run:
 ```bash
 repo init -u git@github.com:lofx-lee/android_manifest.git -b bp4a --git-lfs
 ```
-
+or
+```bash
+repo init -u https://github.com/lofx-lee/android_manifest.git -b bp4a --git-lfs
+```
 Then, sync the repository:
 
 ```bash
