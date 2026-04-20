@@ -32,6 +32,9 @@
   <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
 
+  <!-- vendor custom -->
+  <project path="vendor/custom" name="android_vendor_custom" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
+
   <!-- Google Camera -->
   <project path="vendor/xiaomi/GoogleCamera" name="android_vendor_xiaomi_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
 
