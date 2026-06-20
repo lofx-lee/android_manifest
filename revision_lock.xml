@@ -177,7 +177,7 @@
   <extend-project name="device/google/cuttlefish_prebuilts" revision="e612d2d93afcb806af587969a360cfbb28993111"/>
   <extend-project name="device/sample" revision="c73d2a9548bdf9b8681aeb4f83c479fa5d880dd4"/>
   <extend-project name="device_lineage_sepolicy" path="device/lineage/sepolicy" revision="b6b52ebb459e3e8968a9ab84c45c8f81a66338e3"/>
-  <extend-project name="frameworks_av" path="frameworks/av" revision="6678dae1c6154967e92516854b4b073b9e17a962"/>
+  <extend-project name="frameworks_av" path="frameworks/av" revision="6ea3dab2ee4f934565b3a029f734c6a051961e01"/>
   <extend-project name="frameworks_base" path="frameworks/base" revision="42dfb6d1622c6d98898883f67e7cdce64ac3afe3"/>
   <extend-project name="frameworks_native" path="frameworks/native" revision="35ec9605e96c70af7652b4e5b07b008bc5e63b0c"/>
   <extend-project name="kernel/prebuilts/6.1/arm64" revision="45f90b2e34f6cbc8a6c0c87c292e0b9d8873d20d"/>
@@ -1090,6 +1090,6 @@
   <extend-project name="trusty/vendor/google/aosp" revision="02deab114b76b93c3f9ac6bb2b2abc1949808a57"/>
   <extend-project name="vendor_aosp" path="vendor/aosp" revision="2887d1b7729f38560b1cb4b27317c2bf29f2325b"/>
   <extend-project name="vendor_custom-preference" path="vendor/custom-preference" revision="aa9ebd40db20dd5fa871cdfab888bfc89129d98b"/>
-  <extend-project name="vendor_gms" path="vendor/gms" revision="b660c02ae56aa5dd39e5205231e1e8408bd7e52e"/>
+  <extend-project name="vendor_gms-15" path="vendor/gms" revision="b660c02ae56aa5dd39e5205231e1e8408bd7e52e"/>
   <extend-project name="vendor_google_overlays_ThemeIcons" path="vendor/google/overlays/ThemeIcons" revision="480eaff9890b76438adc3595f7d697723b59a8e1"/>
 </manifest>
