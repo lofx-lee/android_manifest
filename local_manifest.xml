@@ -39,8 +39,9 @@
   <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
 
-  <!-- Google Camera -->
-  <project path="vendor/xiaomi/GoogleCamera" name="android_vendor_xiaomi_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
+  <!-- Miui Camera -->
+  <project path="device/xiaomi/nuwa-miuicamera" name="android_device_xiaomi_nuwa-miuicamera" groups="pdk-cw-fs,pdk-fs" revision="16" remote="lofx-lee" />
+  <project path="vendor/xiaomi/nuwa-miuicamera" name="proprietary_vendor_xiaomi_nuwa-miuicamera" groups="pdk-cw-fs,pdk-fs" revision="16" remote="lofx-lee" />
 
   <!-- Basic Call Recorder -->
   <project path="vendor/xiaomi/bcr" name="android_vendor_xiaomi_bcr" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
