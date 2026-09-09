@@ -18,6 +18,9 @@
   <!-- vendor custom -->
   <remove-project name="PixelOS-AOSP/android_vendor_custom" />
   <project path="vendor/custom" name="android_vendor_custom" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
+  <!-- vendor crowdin -->
+  <remove-project name="PixelOS-AOSP/android_vendor_crowdin" />
+  <project path="vendor/crowdin" name="android_vendor_crowdin" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
 
   <!-- device trees -->
   <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="bp4a" remote="lofx-lee" />
